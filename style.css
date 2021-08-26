@@ -56,8 +56,8 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
-.wrapper .toDolist{
-    max-height: 250px;
+.wrapper .todoList{
+    max-height: 225px;
     overflow-y: auto;
     
 }
@@ -117,8 +117,12 @@ body{
     pointer-events: auto;
 }
 footer{
+
     text-align: center;
-    color: #fff;    
+    color: #fff; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
 }
 
 footer p a{
