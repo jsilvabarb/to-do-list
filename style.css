@@ -107,11 +107,26 @@ body{
     cursor: pointer;
     border-radius: 3px;
     margin-left: 3px;
-    padding: 6px 10px;
+    padding: 6px 6px;
     opacity: 0.6;
     pointer-events: none;
+    
 }
 .footer button.active{
     opacity: 1;
     pointer-events: auto;
 }
+footer{
+    text-align: center;
+    color: #fff;    
+}
+
+footer p a{
+    text-decoration: none;
+    color: #8E49E8;
+}
+
+footer span i{
+    color: #e74c3c;
+}
+
